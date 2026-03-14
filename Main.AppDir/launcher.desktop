@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=BRock Launcher
+Exec=launcher
+Icon=icon
+Type=Application
+Categories=Game;
+Comment=An Unofficial Minecraft Bedrock launcher for Linux
