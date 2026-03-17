@@ -1,0 +1,9 @@
+{
+  "version": "Beta-1.1",
+  "appimage_url": "https://github.com/yourname/yourrepo/releases/download/Beta-1.1/BedrockRockLauncher-Beta-1.1.AppImage",
+  "changelog": [
+    "Added splash screen",
+    "Added keyboard shortcuts",
+    "Storage search bar"
+  ]
+}
