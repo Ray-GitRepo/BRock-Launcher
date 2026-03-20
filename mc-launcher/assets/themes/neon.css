@@ -1,0 +1,99 @@
+/* Neon Theme — black base, electric green, cyberpunk glow */
+* { font-family:'Inter','Segoe UI','Ubuntu','Noto Sans',sans-serif; outline:none; -gtk-outline-radius:0; }
+window,.background { background-color:#04080a; color:#d0f8e8; }
+button:focus { outline:none; box-shadow:none; }
+.sidebar { background-color:#020406; border-right:1px solid #083820; min-width:72px; }
+.nav-btn { background:transparent; border:none; border-left:3px solid transparent; border-radius:0; color:#0a4a28; padding:0; min-width:72px; min-height:72px; transition:background-color 120ms ease; }
+.nav-btn:hover { background-color:rgba(10,240,140,0.07); color:#10e080; border-left-color:rgba(10,240,140,0.40); }
+.nav-btn-active,.nav-btn.active { background-color:rgba(10,240,140,0.10); color:#18f590; border-left:3px solid #18f590; }
+.nav-btn-active:hover { background-color:rgba(10,240,140,0.14); color:#18f590; }
+.nav-label { font-size:10px; font-weight:600; letter-spacing:0.03em; color:inherit; margin-top:3px; }
+.profile-btn { background:transparent; border:none; border-left:3px solid transparent; border-radius:0; color:#0a4a28; padding:0; min-width:72px; min-height:72px; }
+.profile-btn:hover { background-color:rgba(10,240,140,0.07); border-left-color:rgba(10,240,140,0.40); }
+.profile-btn-active { background-color:rgba(10,240,140,0.10); color:#18f590; border-left:3px solid #18f590; }
+.page-title { font-size:18px; font-weight:700; color:#d0f8e8; letter-spacing:-0.02em; }
+.settings-section { font-size:10px; font-weight:700; color:#0a4a28; letter-spacing:0.10em; margin-top:14px; margin-bottom:4px; }
+.muted-label { color:#0a4a28; font-size:13px; font-style:italic; }
+.version-name { font-size:13px; font-weight:600; color:#d0f8e8; }
+.version-id   { font-size:11px; color:#0a5a30; }
+.banner-play-strip { background:rgba(2,4,6,0.86); border-top:1px solid rgba(10,240,140,0.18); padding:12px 20px; }
+.hk-combo-btn { background-color:#060e0a; border:1px solid #083820; border-radius:8px; padding:0; }
+.hk-combo-btn:hover { background-color:#0a1a10; border-color:#18f590; }
+.hk-combo-outer { padding:0 12px; }
+.hk-combo-label { color:#90e8c0; font-size:13px; }
+.hk-combo-arrow { color:#0a4a28; font-size:13px; padding-left:8px; }
+.hk-combo-popover { background-color:#060e0a; border:1px solid #083820; border-radius:10px; padding:4px; box-shadow:0 8px 32px rgba(0,0,0,0.90); }
+.hk-combo-item { background:transparent; border:none; color:#10e080; font-size:13px; padding:8px 14px; }
+.hk-combo-item:hover { background-color:#0a1a10; color:#18f590; }
+.hk-combo-item-active { color:#d0f8e8; font-weight:600; }
+.version-edit-btn { background-color:#060e0a; border:1px solid #083820; border-radius:8px; color:#0a4a28; padding:0; min-width:42px; min-height:42px; }
+.version-edit-btn:hover { background-color:#0a1a10; color:#10e080; border-color:#18f590; }
+.play-btn { background-color:#0a8040; color:#000; font-size:14px; font-weight:800; letter-spacing:0.06em; border-radius:9px; border:1px solid rgba(24,245,144,0.30); padding:0 32px; }
+.play-btn:hover { background-color:#0fa050; }
+.play-btn:disabled { background-color:#083820; color:#0a4a28; }
+.secondary-btn { background-color:#083820; border:1px solid #083820; border-radius:8px; color:#10e080; font-size:12px; font-weight:600; padding:7px 16px; }
+.secondary-btn:hover { background-color:#0d4828; color:#d0f8e8; }
+.del-btn { background-color:transparent; border:1px solid rgba(220,60,60,0.35); border-radius:8px; color:#d05050; font-size:11px; font-weight:600; padding:5px 12px; }
+.del-btn:hover { background-color:#d05050; border-color:#d05050; color:#fff; }
+.small-play { background-color:#0a8040; border:none; border-radius:8px; color:#000; font-size:12px; font-weight:800; padding:7px 16px; }
+.small-play:hover { background-color:#0fa050; }
+.mini-btn { background-color:#060e0a; border:1px solid #083820; border-radius:7px; color:#10e080; font-size:11px; padding:4px 12px; }
+.mini-btn:hover { background-color:#0a1a10; color:#d0f8e8; }
+.more-btn { background-color:#060e0a; border:1px solid #083820; border-radius:7px; color:#0a4a28; font-size:14px; padding:3px 10px; }
+.more-btn:hover { background-color:#0a1a10; color:#d0f8e8; }
+.version-card { background-color:#04080a; border:1px solid #083820; border-radius:10px; margin:3px 14px; padding:12px 14px; }
+.version-card:hover { background-color:#060e0a; border-color:#0d4828; }
+.version-icon-box { background-color:#020406; border:1px solid #083820; border-radius:8px; min-width:52px; min-height:52px; }
+.badge-stable { background-color:rgba(10,128,64,0.15); border:1px solid rgba(24,245,144,0.30); border-radius:4px; padding:2px 8px; font-size:10px; font-weight:700; letter-spacing:0.06em; color:#18f590; }
+.badge-beta   { background-color:rgba(240,200,10,0.12); border:1px solid rgba(240,200,10,0.28); border-radius:4px; padding:2px 8px; font-size:10px; font-weight:700; letter-spacing:0.06em; color:#f0c810; }
+.badge-default{ background-color:rgba(10,240,200,0.10); border:1px solid rgba(10,240,200,0.28); border-radius:4px; padding:2px 8px; font-size:10px; font-weight:700; letter-spacing:0.06em; color:#10f0c8; }
+.tab-btn { background:transparent; border:none; border-bottom:2px solid transparent; border-radius:0; color:#0a4a28; font-size:12px; font-weight:600; letter-spacing:0.03em; padding:10px 18px; }
+.tab-btn:hover { color:#10e080; border-bottom-color:rgba(24,245,144,0.30); }
+.tab-btn-active { color:#18f590; border-bottom-color:#18f590; }
+.card-list { background:transparent; border:none; }
+.card-list row { background:transparent; padding:0; border:none; }
+.card-list row:hover { background:transparent; }
+.import-card { background-color:#04080a; border:1px solid #083820; border-radius:12px; color:#d0f8e8; }
+.import-card:hover { background-color:#060e0a; border-color:rgba(24,245,144,0.30); }
+.settings-row { background-color:#04080a; border:1px solid #083820; border-radius:8px; padding:12px 16px; margin-bottom:4px; }
+.settings-row:hover { border-color:#0d4828; }
+.settings-combo { background-color:#020406; color:#d0f8e8; border:1px solid #083820; border-radius:6px; font-size:12px; padding:4px 8px; min-height:32px; }
+.settings-check,checkbutton,checkbutton label { color:#80e8b8; font-size:13px; }
+check { background-color:#020406; border:1px solid #083820; border-radius:4px; min-width:16px; min-height:16px; }
+check:checked { background-color:#0a8040; border-color:#0a8040; color:#000; }
+.profile-header-card { background-color:#04080a; border:1px solid #083820; border-radius:12px; padding:20px 22px; }
+.skin-preview-box { background-color:#020406; border:1px solid #083820; border-radius:10px; padding:16px; }
+.home-stat-value { font-size:20px; font-weight:800; color:#18f590; letter-spacing:-0.02em; }
+.home-stat-label { font-size:9px; font-weight:700; letter-spacing:0.10em; color:#0a4a28; }
+.version-bar { min-height:4px; }
+.version-bar trough { background-color:#083820; border-radius:2px; min-height:4px; border:none; }
+.version-bar progress { background-color:#18f590; border-radius:2px; min-height:4px; border:none; }
+progressbar trough { background-color:#083820; border-radius:4px; }
+progressbar progress { background-color:#18f590; border-radius:4px; }
+.notif-frame { border-radius:10px; border:none; }
+.notif-title { font-size:13px; font-weight:700; color:#d0f8e8; }
+.notif-body  { font-size:12px; color:#50b880; }
+.notif-close { background:transparent; border:none; color:rgba(200,255,220,0.40); padding:0 4px; font-size:12px; }
+.notif-close:hover { color:rgba(200,255,220,0.80); }
+.console { background-color:#020406; color:#18f590; font-family:'JetBrains Mono','Fira Code','Consolas',monospace; font-size:11.5px; padding:12px; border:1px solid #083820; border-radius:8px; }
+textview.console text { background-color:#020406; color:#18f590; }
+.server-status-bar { background-color:#04080a; border-bottom:1px solid #083820; padding:12px 16px; }
+.server-stat-box { background-color:#020406; border:1px solid #083820; border-radius:8px; padding:8px 20px; min-width:72px; }
+.server-stat-value { font-size:17px; font-weight:800; color:#d0f8e8; }
+.server-stat-label { font-size:10px; font-weight:700; letter-spacing:0.08em; color:#0a4a28; }
+.server-status-online  { color:#18f590; font-size:11px; font-weight:600; }
+.server-status-offline { color:#f04040; font-size:11px; font-weight:600; }
+scrollbar { background-color:transparent; border:none; }
+scrollbar slider { background-color:#083820; border-radius:4px; min-width:5px; min-height:24px; margin:2px; }
+scrollbar slider:hover { background-color:#0a4a28; }
+scrollbar slider:active { background-color:#18f590; }
+entry { background-color:#020406; color:#d0f8e8; border:1px solid #083820; border-radius:8px; padding:6px 12px; caret-color:#18f590; }
+entry:focus { border-color:#18f590; background-color:#04080a; }
+separator { background-color:#083820; min-height:1px; }
+dialog    { background-color:#04080a; color:#d0f8e8; }
+menu { background-color:#060e0a; color:#d0f8e8; border:1px solid #083820; border-radius:8px; padding:4px 0; box-shadow:0 8px 32px rgba(0,0,0,0.90); }
+menuitem { background:transparent; border:none; border-radius:5px; margin:2px 6px; padding:8px 14px; font-size:13px; color:#10e080; }
+menuitem:hover { background-color:rgba(24,245,144,0.10); color:#d0f8e8; }
+tooltip { background-color:#060e0a; color:#d0f8e8; border:1px solid #083820; border-radius:6px; padding:6px 10px; font-size:12px; }
+.about-app-name { font-size:16px; font-weight:800; color:#d0f8e8; }
+.about-feat-badge { background-color:rgba(24,245,144,0.10); border:1px solid rgba(24,245,144,0.25); border-radius:20px; padding:4px 12px; font-size:11px; color:#18f590; }

@@ -1,0 +1,106 @@
+/* ═══════════════════════════════════════════════════════════
+   Crystallic Theme — deep purple, violet, gem-like brilliance
+   ═══════════════════════════════════════════════════════════ */
+
+* { font-family:'Inter','Segoe UI','Ubuntu','Noto Sans',sans-serif; outline:none; -gtk-outline-radius:0; }
+window,.background { background-color:#0c0814; color:#e0d0f8; }
+button:focus { outline:none; box-shadow:none; }
+.sidebar { background-color:#08050f; border-right:1px solid #2a1850; min-width:72px; }
+.nav-btn { background:transparent; border:none; border-left:3px solid transparent; border-radius:0; color:#4a2880; padding:0; min-width:72px; min-height:72px; transition:background-color 120ms ease; }
+.nav-btn:hover { background-color:rgba(140,80,240,0.08); color:#9060d8; border-left-color:rgba(140,80,240,0.35); }
+.nav-btn-active,.nav-btn.active { background-color:rgba(140,80,240,0.14); color:#a878f0; border-left:3px solid #a878f0; }
+.nav-btn-active:hover { background-color:rgba(140,80,240,0.18); color:#a878f0; }
+.nav-label { font-size:10px; font-weight:600; letter-spacing:0.03em; color:inherit; margin-top:3px; }
+.profile-btn { background:transparent; border:none; border-left:3px solid transparent; border-radius:0; color:#4a2880; padding:0; min-width:72px; min-height:72px; }
+.profile-btn:hover { background-color:rgba(140,80,240,0.08); color:#9060d8; border-left-color:rgba(140,80,240,0.35); }
+.profile-btn-active { background-color:rgba(140,80,240,0.14); color:#a878f0; border-left:3px solid #a878f0; }
+.page-title { font-size:18px; font-weight:700; color:#e0d0f8; letter-spacing:-0.02em; }
+.settings-section { font-size:10px; font-weight:700; color:#4a2880; letter-spacing:0.10em; margin-top:14px; margin-bottom:4px; }
+.muted-label { color:#4a2880; font-size:13px; font-style:italic; }
+.version-name { font-size:13px; font-weight:600; color:#e0d0f8; }
+.version-id   { font-size:11px; color:#6840a0; }
+.banner-play-strip { background:rgba(8,5,15,0.84); border-top:1px solid rgba(140,80,240,0.15); padding:12px 20px; }
+.banner-hint { color:#6840a0; font-size:13px; }
+.hk-combo-btn { background-color:#110c20; border:1px solid #2a1850; border-radius:8px; padding:0; box-shadow:none; }
+.hk-combo-btn:hover { background-color:#18102a; border-color:#a878f0; }
+.hk-combo-outer { padding:0 12px; }
+.hk-combo-label { color:#d0b8f0; font-size:13px; }
+.hk-combo-arrow { color:#4a2880; font-size:13px; padding-left:8px; }
+.hk-combo-popover { background-color:#110c20; border:1px solid #2a1850; border-radius:10px; padding:4px; box-shadow:0 8px 32px rgba(0,0,0,0.80); }
+.hk-combo-item { background:transparent; border:none; border-radius:0; color:#9060d8; font-size:13px; padding:8px 14px; }
+.hk-combo-item:hover { background-color:#18102a; color:#a878f0; }
+.hk-combo-item-active { color:#e0d0f8; font-weight:600; }
+.version-edit-btn { background-color:#110c20; border:1px solid #2a1850; border-radius:8px; color:#4a2880; padding:0; min-width:42px; min-height:42px; }
+.version-edit-btn:hover { background-color:#18102a; color:#9060d8; border-color:#a878f0; }
+.play-btn { background-color:#6830c0; color:#fff; font-size:14px; font-weight:700; letter-spacing:0.06em; border-radius:9px; border:1px solid rgba(168,120,240,0.25); padding:0 32px; text-shadow:none; }
+.play-btn:hover { background-color:#7a40d8; }
+.play-btn:active { opacity:0.88; }
+.play-btn:disabled { background-color:#2a1850; color:#4a2880; }
+.secondary-btn { background-color:#2a1850; border:1px solid #2a1850; border-radius:8px; color:#9060d8; font-size:12px; font-weight:600; padding:7px 16px; text-shadow:none; }
+.secondary-btn:hover { background-color:#33205e; color:#e0d0f8; }
+.del-btn { background-color:transparent; border:1px solid rgba(240,80,100,0.35); border-radius:8px; color:#e06080; font-size:11px; font-weight:600; padding:5px 12px; text-shadow:none; }
+.del-btn:hover { background-color:#e06080; border-color:#e06080; color:#fff; }
+.small-play { background-color:#6830c0; border:none; border-radius:8px; color:#fff; font-size:12px; font-weight:700; padding:7px 16px; text-shadow:none; }
+.small-play:hover { background-color:#7a40d8; }
+.mini-btn { background-color:#110c20; border:1px solid #2a1850; border-radius:7px; color:#9060d8; font-size:11px; padding:4px 12px; text-shadow:none; }
+.mini-btn:hover { background-color:#18102a; color:#e0d0f8; }
+.more-btn { background-color:#110c20; border:1px solid #2a1850; border-radius:7px; color:#4a2880; font-size:14px; padding:3px 10px; text-shadow:none; }
+.more-btn:hover { background-color:#18102a; color:#e0d0f8; }
+.version-card { background-color:#0c0814; border:1px solid #2a1850; border-radius:10px; margin:3px 14px; padding:12px 14px; }
+.version-card:hover { background-color:#110c20; border-color:#33205e; }
+.version-icon-box { background-color:#08050f; border:1px solid #2a1850; border-radius:8px; min-width:52px; min-height:52px; }
+.badge-stable { background-color:rgba(104,48,192,0.15); border:1px solid rgba(168,120,240,0.30); border-radius:4px; padding:2px 8px; font-size:10px; font-weight:700; letter-spacing:0.06em; color:#a878f0; }
+.badge-beta   { background-color:rgba(180,140,30,0.12); border:1px solid rgba(200,160,40,0.28); border-radius:4px; padding:2px 8px; font-size:10px; font-weight:700; letter-spacing:0.06em; color:#c8a040; }
+.badge-default{ background-color:rgba(120,180,240,0.10); border:1px solid rgba(120,180,240,0.28); border-radius:4px; padding:2px 8px; font-size:10px; font-weight:700; letter-spacing:0.06em; color:#90c0f0; }
+.tab-btn { background:transparent; border:none; border-bottom:2px solid transparent; border-radius:0; color:#4a2880; font-size:12px; font-weight:600; letter-spacing:0.03em; padding:10px 18px; text-shadow:none; }
+.tab-btn:hover { color:#9060d8; border-bottom-color:rgba(168,120,240,0.30); }
+.tab-btn-active { color:#a878f0; border-bottom-color:#a878f0; }
+.card-list { background:transparent; border:none; }
+.card-list row { background:transparent; padding:0; border:none; }
+.card-list row:hover { background:transparent; }
+.import-card { background-color:#0c0814; border:1px solid #2a1850; border-radius:12px; color:#e0d0f8; }
+.import-card:hover { background-color:#110c20; border-color:rgba(168,120,240,0.30); }
+.settings-row { background-color:#0c0814; border:1px solid #2a1850; border-radius:8px; padding:12px 16px; margin-bottom:4px; }
+.settings-row:hover { border-color:#33205e; }
+.settings-combo { background-color:#08050f; color:#e0d0f8; border:1px solid #2a1850; border-radius:6px; font-size:12px; padding:4px 8px; min-height:32px; }
+.settings-check { color:#c8b0e8; font-size:13px; }
+checkbutton { color:#c8b0e8; font-size:13px; }
+checkbutton label { color:#c8b0e8; font-size:13px; }
+check { background-color:#08050f; border:1px solid #2a1850; border-radius:4px; min-width:16px; min-height:16px; }
+check:checked { background-color:#6830c0; border-color:#6830c0; color:#fff; }
+.profile-header-card { background-color:#0c0814; border:1px solid #2a1850; border-radius:12px; padding:20px 22px; }
+.skin-preview-box { background-color:#08050f; border:1px solid #2a1850; border-radius:10px; padding:16px; }
+.home-stat-value { font-size:20px; font-weight:800; color:#a878f0; letter-spacing:-0.02em; }
+.home-stat-label { font-size:9px; font-weight:700; letter-spacing:0.10em; color:#4a2880; }
+.version-bar { min-height:4px; }
+.version-bar trough { background-color:#2a1850; border-radius:2px; min-height:4px; border:none; }
+.version-bar progress { background-color:#a878f0; border-radius:2px; min-height:4px; border:none; }
+progressbar trough { background-color:#2a1850; border-radius:4px; }
+progressbar progress { background-color:#a878f0; border-radius:4px; }
+.notif-frame { border-radius:10px; border:none; }
+.notif-title { font-size:13px; font-weight:700; color:#e0d0f8; }
+.notif-body  { font-size:12px; color:#a898c8; }
+.notif-close { background:transparent; border:none; color:rgba(255,255,255,0.40); padding:0 4px; font-size:12px; }
+.notif-close:hover { color:rgba(255,255,255,0.80); }
+.console { background-color:#08050f; color:#a878f0; font-family:'JetBrains Mono','Fira Code','Consolas',monospace; font-size:11.5px; padding:12px; border:1px solid #2a1850; border-radius:8px; }
+textview.console text { background-color:#08050f; color:#a878f0; }
+.server-status-bar { background-color:#0c0814; border-bottom:1px solid #2a1850; padding:12px 16px; }
+.server-stat-box { background-color:#08050f; border:1px solid #2a1850; border-radius:8px; padding:8px 20px; min-width:72px; }
+.server-stat-value { font-size:17px; font-weight:800; color:#e0d0f8; }
+.server-stat-label { font-size:10px; font-weight:700; letter-spacing:0.08em; color:#4a2880; }
+.server-status-online  { color:#a878f0; font-size:11px; font-weight:600; }
+.server-status-offline { color:#e06080; font-size:11px; font-weight:600; }
+scrollbar { background-color:transparent; border:none; }
+scrollbar slider { background-color:#2a1850; border-radius:4px; min-width:5px; min-height:24px; margin:2px; }
+scrollbar slider:hover { background-color:#4a2880; }
+scrollbar slider:active { background-color:#a878f0; }
+entry { background-color:#08050f; color:#e0d0f8; border:1px solid #2a1850; border-radius:8px; padding:6px 12px; caret-color:#a878f0; }
+entry:focus { border-color:#a878f0; background-color:#0c0814; }
+separator { background-color:#2a1850; min-height:1px; }
+dialog    { background-color:#0c0814; color:#e0d0f8; }
+menu { background-color:#110c20; color:#e0d0f8; border:1px solid #2a1850; border-radius:8px; padding:4px 0; box-shadow:0 8px 32px rgba(0,0,0,0.80); }
+menuitem { background:transparent; border:none; border-radius:5px; margin:2px 6px; padding:8px 14px; font-size:13px; color:#9060d8; }
+menuitem:hover { background-color:rgba(168,120,240,0.10); color:#e0d0f8; }
+tooltip { background-color:#110c20; color:#e0d0f8; border:1px solid #2a1850; border-radius:6px; padding:6px 10px; font-size:12px; }
+.about-app-name { font-size:16px; font-weight:800; color:#e0d0f8; }
+.about-feat-badge { background-color:rgba(168,120,240,0.10); border:1px solid rgba(168,120,240,0.25); border-radius:20px; padding:4px 12px; font-size:11px; color:#a878f0; }

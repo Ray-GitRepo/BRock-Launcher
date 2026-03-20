@@ -1,0 +1,131 @@
+/* ═══════════════════════════════════════════════════════════
+   Forest Theme — deep pine greens, earthy browns, mossy accents
+   ═══════════════════════════════════════════════════════════ */
+
+* { font-family: 'Inter','Segoe UI','Ubuntu','Noto Sans',sans-serif; outline:none; -gtk-outline-radius:0; }
+
+window, .background { background-color:#0a120a; color:#d4e8cc; }
+button:focus { outline:none; box-shadow:none; }
+
+.sidebar { background-color:#060d06; border-right:1px solid #1a2e1a; min-width:72px; }
+
+.nav-btn { background:transparent; border:none; border-left:3px solid transparent; border-radius:0;
+    color:#3a5c3a; padding:0; min-width:72px; min-height:72px; transition:background-color 120ms ease; }
+.nav-btn:hover { background-color:rgba(80,180,80,0.07); color:#6aab6a; border-left-color:rgba(80,180,80,0.35); }
+.nav-btn-active,.nav-btn.active { background-color:rgba(80,180,80,0.12); color:#5ec95e; border-left:3px solid #5ec95e; }
+.nav-btn-active:hover { background-color:rgba(80,180,80,0.17); color:#5ec95e; }
+.nav-label { font-size:10px; font-weight:600; letter-spacing:0.03em; color:inherit; margin-top:3px; }
+.profile-btn { background:transparent; border:none; border-left:3px solid transparent; border-radius:0;
+    color:#3a5c3a; padding:0; min-width:72px; min-height:72px; }
+.profile-btn:hover { background-color:rgba(80,180,80,0.07); color:#6aab6a; border-left-color:rgba(80,180,80,0.35); }
+.profile-btn-active { background-color:rgba(80,180,80,0.12); color:#5ec95e; border-left:3px solid #5ec95e; }
+
+.page-title { font-size:18px; font-weight:700; color:#d4e8cc; letter-spacing:-0.02em; }
+.settings-section { font-size:10px; font-weight:700; color:#3a5c3a; letter-spacing:0.10em; margin-top:14px; margin-bottom:4px; }
+.muted-label { color:#3a5c3a; font-size:13px; font-style:italic; }
+.version-name  { font-size:13px; font-weight:600; color:#d4e8cc; }
+.version-id    { font-size:11px; color:#4a744a; }
+
+.banner-play-strip { background:rgba(6,13,6,0.82); border-top:1px solid rgba(80,180,80,0.15); padding:12px 20px; }
+.banner-hint { color:#4a744a; font-size:13px; }
+
+.hk-combo-btn { background-color:#0f1f0f; border:1px solid #1e3a1e; border-radius:8px; padding:0; box-shadow:none; }
+.hk-combo-btn:hover { background-color:#162816; border-color:#5ec95e; }
+.hk-combo-outer { padding:0 12px; }
+.hk-combo-label { color:#c8e0c0; font-size:13px; }
+.hk-combo-arrow { color:#3a5c3a; font-size:13px; padding-left:8px; }
+.hk-combo-popover { background-color:#0f1f0f; border:1px solid #1e3a1e; border-radius:10px; padding:4px; box-shadow:0 8px 32px rgba(0,0,0,0.70); }
+.hk-combo-item { background:transparent; border:none; border-radius:0; color:#6aab6a; font-size:13px; padding:8px 14px; }
+.hk-combo-item:hover { background-color:#162816; color:#5ec95e; }
+.hk-combo-item-active { color:#d4e8cc; font-weight:600; }
+.version-edit-btn { background-color:#0f1f0f; border:1px solid #1e3a1e; border-radius:8px; color:#3a5c3a; padding:0; min-width:42px; min-height:42px; }
+.version-edit-btn:hover { background-color:#162816; color:#6aab6a; border-color:#5ec95e; }
+
+.play-btn { background-color:#2d7a2d; color:#fff; font-size:14px; font-weight:700; letter-spacing:0.06em; border-radius:9px; border:1px solid rgba(94,201,94,0.25); padding:0 32px; text-shadow:none; }
+.play-btn:hover { background-color:#38963e; }
+.play-btn:active { opacity:0.88; }
+.play-btn:disabled { background-color:#1a2e1a; color:#3a5c3a; }
+
+.secondary-btn { background-color:#1a2e1a; border:1px solid #1e3a1e; border-radius:8px; color:#6aab6a; font-size:12px; font-weight:600; padding:7px 16px; text-shadow:none; }
+.secondary-btn:hover { background-color:#1f361f; color:#c8e0c0; border-color:#3a5c3a; }
+.del-btn { background-color:transparent; border:1px solid rgba(200,80,60,0.35); border-radius:8px; color:#d06050; font-size:11px; font-weight:600; padding:5px 12px; text-shadow:none; }
+.del-btn:hover { background-color:#d06050; border-color:#d06050; color:#fff; }
+.small-play { background-color:#2d7a2d; border:none; border-radius:8px; color:#fff; font-size:12px; font-weight:700; padding:7px 16px; text-shadow:none; }
+.small-play:hover { background-color:#38963e; }
+.mini-btn { background-color:#0f1f0f; border:1px solid #1e3a1e; border-radius:7px; color:#6aab6a; font-size:11px; padding:4px 12px; text-shadow:none; }
+.mini-btn:hover { background-color:#162816; color:#c8e0c0; }
+.more-btn { background-color:#0f1f0f; border:1px solid #1e3a1e; border-radius:7px; color:#3a5c3a; font-size:14px; padding:3px 10px; text-shadow:none; }
+.more-btn:hover { background-color:#162816; color:#c8e0c0; }
+
+.version-card { background-color:#0a120a; border:1px solid #1a2e1a; border-radius:10px; margin:3px 14px; padding:12px 14px; }
+.version-card:hover { background-color:#0f1f0f; border-color:#1e3a1e; }
+.version-icon-box { background-color:#060d06; border:1px solid #1a2e1a; border-radius:8px; min-width:52px; min-height:52px; }
+
+.badge-stable { background-color:rgba(45,122,45,0.15); border:1px solid rgba(94,201,94,0.30); border-radius:4px; padding:2px 8px; font-size:10px; font-weight:700; letter-spacing:0.06em; color:#5ec95e; }
+.badge-beta   { background-color:rgba(180,140,30,0.12); border:1px solid rgba(200,160,40,0.28); border-radius:4px; padding:2px 8px; font-size:10px; font-weight:700; letter-spacing:0.06em; color:#c8a040; }
+.badge-default{ background-color:rgba(80,160,200,0.10); border:1px solid rgba(80,160,200,0.28); border-radius:4px; padding:2px 8px; font-size:10px; font-weight:700; letter-spacing:0.06em; color:#60b0e0; }
+
+.tab-btn { background:transparent; border:none; border-bottom:2px solid transparent; border-radius:0; color:#3a5c3a; font-size:12px; font-weight:600; letter-spacing:0.03em; padding:10px 18px; text-shadow:none; }
+.tab-btn:hover { color:#6aab6a; border-bottom-color:rgba(94,201,94,0.30); }
+.tab-btn-active { color:#5ec95e; border-bottom-color:#5ec95e; }
+
+.card-list { background:transparent; border:none; }
+.card-list row { background:transparent; padding:0; border:none; }
+.card-list row:hover { background:transparent; }
+
+.import-card { background-color:#0a120a; border:1px solid #1a2e1a; border-radius:12px; color:#d4e8cc; }
+.import-card:hover { background-color:#0f1f0f; border-color:rgba(94,201,94,0.30); }
+
+.settings-row { background-color:#0a120a; border:1px solid #1a2e1a; border-radius:8px; padding:12px 16px; margin-bottom:4px; }
+.settings-row:hover { border-color:#1e3a1e; }
+.settings-combo { background-color:#060d06; color:#d4e8cc; border:1px solid #1e3a1e; border-radius:6px; font-size:12px; padding:4px 8px; min-height:32px; }
+.settings-check { color:#c0d8b8; font-size:13px; }
+checkbutton { color:#c0d8b8; font-size:13px; }
+checkbutton label { color:#c0d8b8; font-size:13px; }
+check { background-color:#060d06; border:1px solid #1e3a1e; border-radius:4px; min-width:16px; min-height:16px; }
+check:checked { background-color:#2d7a2d; border-color:#2d7a2d; color:#fff; }
+
+.profile-header-card { background-color:#0a120a; border:1px solid #1a2e1a; border-radius:12px; padding:20px 22px; }
+.skin-preview-box { background-color:#060d06; border:1px solid #1a2e1a; border-radius:10px; padding:16px; }
+.home-stat-value { font-size:20px; font-weight:800; color:#5ec95e; letter-spacing:-0.02em; }
+.home-stat-label { font-size:9px; font-weight:700; letter-spacing:0.10em; color:#3a5c3a; }
+
+.version-bar { min-height:4px; }
+.version-bar trough { background-color:#1a2e1a; border-radius:2px; min-height:4px; border:none; }
+.version-bar progress { background-color:#5ec95e; border-radius:2px; min-height:4px; border:none; }
+progressbar trough { background-color:#1a2e1a; border-radius:4px; }
+progressbar progress { background-color:#5ec95e; border-radius:4px; }
+
+.notif-frame { border-radius:10px; border:none; }
+.notif-title  { font-size:13px; font-weight:700; color:#d4e8cc; }
+.notif-body   { font-size:12px; color:#a8c8a0; }
+.notif-close  { background:transparent; border:none; color:rgba(255,255,255,0.40); padding:0 4px; font-size:12px; }
+.notif-close:hover { color:rgba(255,255,255,0.80); }
+
+.console { background-color:#060d06; color:#5ec95e; font-family:'JetBrains Mono','Fira Code','Consolas',monospace; font-size:11.5px; padding:12px; border:1px solid #1a2e1a; border-radius:8px; }
+textview.console text { background-color:#060d06; color:#5ec95e; }
+
+.server-status-bar { background-color:#0a120a; border-bottom:1px solid #1a2e1a; padding:12px 16px; }
+.server-stat-box { background-color:#060d06; border:1px solid #1a2e1a; border-radius:8px; padding:8px 20px; min-width:72px; }
+.server-stat-value { font-size:17px; font-weight:800; color:#d4e8cc; }
+.server-stat-label { font-size:10px; font-weight:700; letter-spacing:0.08em; color:#3a5c3a; }
+.server-status-online  { color:#5ec95e; font-size:11px; font-weight:600; }
+.server-status-offline { color:#d06050; font-size:11px; font-weight:600; }
+
+scrollbar { background-color:transparent; border:none; }
+scrollbar slider { background-color:#1e3a1e; border-radius:4px; min-width:5px; min-height:24px; margin:2px; }
+scrollbar slider:hover { background-color:#3a5c3a; }
+scrollbar slider:active { background-color:#5ec95e; }
+
+entry { background-color:#060d06; color:#d4e8cc; border:1px solid #1e3a1e; border-radius:8px; padding:6px 12px; caret-color:#5ec95e; }
+entry:focus { border-color:#5ec95e; background-color:#0a120a; }
+
+separator { background-color:#1a2e1a; min-height:1px; }
+dialog    { background-color:#0a120a; color:#d4e8cc; }
+menu { background-color:#0f1f0f; color:#d4e8cc; border:1px solid #1e3a1e; border-radius:8px; padding:4px 0; box-shadow:0 8px 32px rgba(0,0,0,0.70); }
+menuitem { background:transparent; border:none; border-radius:5px; margin:2px 6px; padding:8px 14px; font-size:13px; color:#6aab6a; }
+menuitem:hover { background-color:rgba(94,201,94,0.10); color:#d4e8cc; }
+tooltip { background-color:#0f1f0f; color:#d4e8cc; border:1px solid #1e3a1e; border-radius:6px; padding:6px 10px; font-size:12px; }
+
+.about-app-name { font-size:16px; font-weight:800; color:#d4e8cc; }
+.about-feat-badge { background-color:rgba(94,201,94,0.10); border:1px solid rgba(94,201,94,0.25); border-radius:20px; padding:4px 12px; font-size:11px; color:#5ec95e; }
