@@ -2,7 +2,7 @@
 
 # BRock Launcher
 
-**The Minecraft Bedrock Launcher for Linux**
+**A Minecraft Bedrock Launcher**
 
 ![Version](https://img.shields.io/badge/version-Beta--1.1-3fcf8e?style=for-the-badge)
 ![Platform](https://img.shields.io/badge/platform-Linux-blue?style=for-the-badge)
