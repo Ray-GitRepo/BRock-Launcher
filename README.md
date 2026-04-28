@@ -4,7 +4,7 @@
 
 **A Minecraft Bedrock Launcher**
 
-![Version](https://img.shields.io/badge/version-Beta--1.1-3fcf8e?style=for-the-badge)
+![Version](https://img.shields.io/badge/version-Beta--1.2-3fcf8e?style=for-the-badge)
 ![Platform](https://img.shields.io/badge/platform-Linux-blue?style=for-the-badge)
 ![Python](https://img.shields.io/badge/python-3.x-yellow?style=for-the-badge)
 ![GTK](https://img.shields.io/badge/GTK-3.0-orange?style=for-the-badge)
